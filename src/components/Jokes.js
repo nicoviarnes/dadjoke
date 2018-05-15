@@ -59,9 +59,9 @@ class Jokes extends React.Component {
 		const entry = {'joke': this.state.joke, 'vote': this.state.vote}
 		this.setState({
 			entries: this.state.entries.concat(entry)
-		})
-
-		localStorage.setItem('results', JSON.stringify(this.state.entries))
+		},
+		() => { localStorage.setItem('results', JSON.stringify(this.state.entries)) }
+		)
 		
 		this.getJoke();
 	}
