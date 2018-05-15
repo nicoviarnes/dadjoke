@@ -51,9 +51,10 @@ thead {
   padding: 15px;
   border-radius: 3px;
   text-align: center;
-  font-size: 36px;
+  font-size: 2vw;
   background: #328284;
   border-radius: .4em;
+  z-index: 10;
 }
 
 .dadjoke:after {
@@ -84,6 +85,8 @@ thead {
   padding: 15px;
   border-radius: 3px;
   text-align: center;
+  z-index: 11;
+  font-size: 1vw;
 }
 button{
   background:#05a58d;
@@ -91,8 +94,8 @@ button{
   border:none;
   position:relative;
   height:60px;
-  font-size:1.6em;
-  padding:0 2em;
+  font-size:1vw;
+  padding:15px;
   cursor:pointer;
   transition:800ms ease all;
   outline:none;
@@ -126,4 +129,10 @@ button:hover:before,button:hover:after{
 	position: absolute;
 	bottom: 0;
 	left: 0;
+}
+
+@media screen and (max-width: 700px) {
+  .stan {
+    visibility: hidden;
+  }  
 }
