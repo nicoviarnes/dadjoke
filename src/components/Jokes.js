@@ -18,7 +18,7 @@ class Jokes extends React.Component {
 	    fetch("https://icanhazdadjoke.com/", {
 	    	headers: {
 	    		'accept': 'application/json',
-	    		'user-agent': 'DadJoke (https://github.com/nicoviarnes/DadJoke'
+	    		'user-agent': 'DadJoke (https://github.com/nicoviarnes/dadjoke'
 	    	}
 	    })
 	      .then(res => res.json())

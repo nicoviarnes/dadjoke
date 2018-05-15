@@ -21,7 +21,7 @@ class App extends Component {
             <ul className="topnav">
                 <li><Link to="/">Dad Jokes</Link></li>
                 <li><Link to="/dashboard">Voting Dashboard</Link></li>
-                <li className="righty"><a href="https://github.com/nicoviarnes">Git Repo</a></li>
+                <li className="righty"><a href="https://github.com/nicoviarnes/dadjoke">Git Repo</a></li>
             </ul>  
             <hr/>
 
