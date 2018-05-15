@@ -1,0 +1,129 @@
+
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css');
+
+body {
+	background-color: #e9e7e9
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #05a58d;
+}
+
+li {
+    float: left;
+}
+
+.righty {
+	float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #328284;
+}
+
+thead {
+	font-size: 22;
+}
+
+.dadjoke
+{
+  position: absolute;
+  color: #e9e7e9;
+  margin: auto;
+  top: -20%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 50%;
+  height:250px;
+  padding: 15px;
+  border-radius: 3px;
+  text-align: center;
+  font-size: 36px;
+  background: #328284;
+  border-radius: .4em;
+}
+
+.dadjoke:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border: 34px solid transparent;
+	border-top-color: #328284;
+	border-bottom: 0;
+	border-left: 0;
+	margin-left: -17px;
+	margin-bottom: -34px;
+}
+
+.buttons {
+  position: absolute;
+  color: #e9e7e9;
+  margin: auto;
+  top: 45%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 50%;
+  height:100px;
+  padding: 15px;
+  border-radius: 3px;
+  text-align: center;
+}
+button{
+  background:#05a58d;
+  color:#fff;
+  border:none;
+  position:relative;
+  height:60px;
+  font-size:1.6em;
+  padding:0 2em;
+  cursor:pointer;
+  transition:800ms ease all;
+  outline:none;
+}
+button:hover{
+  background:#fff;
+  color:#1AAB8A;
+}
+button:before,button:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: #1AAB8A;
+  transition:400ms ease all;
+}
+button:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+button:hover:before,button:hover:after{
+  width:100%;
+  transition:800ms ease all;
+}
+
+.stan {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
